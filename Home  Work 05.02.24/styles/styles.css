@@ -91,81 +91,78 @@ body{
  }
  
  .footer{
-     display: flex;
-     justify-content: space-between;
      background: #19191C;
-     width: 1920px;
-     height: 536px;
-    
- }
- 
- .information a{
-     display: flex;
-     color: #FBFBFC;
-     gap: 14px;
-     align-items: center;
- }
- 
- 
- .sitemap{
- color: #EFEFF2;
- 
- 
- 
- }
- 
- .sitemap_title{
-     font-weight: 600;
-     font-size: 18px;
-     line-height: 21.78px;
-     text-decoration: none;
-     padding-top: 68px;
-     margin: 0;
      
  }
  
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
  
- .list{
-     color: #EFEFF2;
-     font-weight: 400;
-     font-size: 17px;
-     line-height: 28px;
-     text-decoration: none;
+.container{
+    width: 1148px;
+    margin: 0 auto;
+}
+
+.information a{
+    display: flex;
+    color: #FBFBFC;
+    gap: 14px;
+    align-items: center;
+}
+
+.sitemap{
+    color: #EFEFF2;
+    
+    
+    
+    }
+    
+    .sitemap_title{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21.78px;
+        text-decoration: none;
+        padding-top: 68px;
+        margin: 0;
+        
+    }
+    
+    
+    .list{
+        color: #EFEFF2;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        text-decoration: none;
+          
+    }
+    
+    .sitemap_list{
+        list-style: none;
+        padding: 0;
+    }
+    
+    .logo_footer{
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 57px 29.4px;
+        text-decoration: none;
        
- }
- 
- .sitemap_list{
-     list-style: none;
-     padding: 0;
- }
- 
- .logo_footer{
-     font-weight: 800;
-     font-size: 18px;
-     line-height: 22px;
-     padding: 57px 29.4px;
-     text-decoration: none;
-    
-    
- }
- 
- .Copyright {
-     
-     bottom: 0;
-     left: 50%;
-     transform: translateX(-50%);
-     text-align: center;
-     width: 100%;
- }
- 
- .Copyright a, .Copyright p {
-     display: inline-block;
-     vertical-align: middle; 
-     color: #6D6D77;
-     
-     text-decoration: none; 
- }
- 
- .sitemap.blok1{
-     padding-right: 64px;
- }
+       
+    }
+
+    .Copyright{
+        text-align: center;
+    }
+
+    .Copyright a, .Copyright p {
+        display: inline-block;
+        vertical-align: middle; 
+        color: #6D6D77;
+        
+        text-decoration: none; 
+    }
+
