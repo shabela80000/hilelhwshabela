@@ -58,11 +58,11 @@
     padding-right: 70px;
 }
 
-.header-btn-group {
+.header-imput-blok {
     display: flex;
 }
 
-.header-btn-order {
+.header__input {
     width: 280px;
     height: 60px;
     background-color: white;
@@ -76,6 +76,7 @@
     border: 3px solid #dc770b24;
     color: white;
     font-size: 16px;
+    text-transform: uppercase;
     width: 105px;
     height: 60px;
     font-weight: 400;
