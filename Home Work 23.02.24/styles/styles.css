@@ -1,0 +1,293 @@
+.navigation {
+    text-align: center;
+    background-color: #000000; 
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px; 
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-top: 43px;
+    margin-bottom: 45px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    margin-left: 53px;
+}
+
+.container {
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header-content-text {
+    max-width: 573px;
+    display: inline-block;
+    margin-right: 145px;
+    padding-top: 53px;
+}
+
+.header-content-title {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 87px;
+    margin-bottom: 38px;
+}
+
+.header-content-description {
+    margin-bottom: 46px;
+    min-width: 530px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    line-height: 30px;
+    padding-right: 70px;
+}
+
+.header-btn-group {
+    display: flex;
+}
+
+.header-btn-order {
+    width: 280px;
+    height: 60px;
+    background-color: white;
+    border: 3px solid black;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.header-btn-details {
+    background-color: black;
+    border: 3px solid #dc770b24;
+    color: white;
+    font-size: 16px;
+    width: 105px;
+    height: 60px;
+    font-weight: 400;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.header-img {
+    padding-top: 73px;
+    display: inline-block;
+}
+
+.step-block {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.step-title {
+    font-family: "Roboto";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.step-description {
+    font-family: "Roboto";
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 66px;
+    margin-top: 30px;
+    margin-bottom: 47px;
+}
+
+.main-conteiner-one {
+    background-color: #FCD0BA;
+    display: flex;
+}
+
+.get-top-title {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase; 
+}
+
+.main-content-img {
+    padding-left: 335px;
+    margin-top: 71px;
+}
+
+.empower-title {
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 48px; 
+    width: 301px;
+    height: 90px; 
+    margin-top: 21px; 
+}
+
+.get-started {
+    margin-top: 31px;
+    margin-left: 51px;
+    padding-right: 760px;
+}
+
+.check-mark-one{
+    margin-top: 71px;
+    margin-left: 54px;  
+}
+.check-mark {
+    margin-top: 31px;
+    margin-left: 54px;
+}
+
+.features-benefits-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.check-mark-img {
+    margin-right: 19px;
+}
+
+.features-item-title {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.step-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.step-description-deposit {
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 66px;
+    margin-top: 30px;
+    margin-bottom: 41px;
+    max-width: 518px;
+    font-family: "Roboto";
+    margin-bottom: 41px;
+}
+
+.main-conteiner-free {
+    background-color: #CCD3E7;
+    display: flex;
+}
+
+.empower-top-title {
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 48px; 
+    margin-top: 21px; 
+}
+
+.empowerdebit-title {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card__butt-bottom {
+    color: white;
+    font-size: 16px;
+    line-height: 24px; 
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background-color: black;
+    padding: 14px 29px;
+    margin-top: 5px;
+    margin-bottom: 75px;
+    margin-left: 54px;
+}
+
+.card__button {
+    color: black;
+    font-size: 12px;
+    line-height: 24px; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 50px;
+    padding: 6px 22px;
+    margin-top: 53px;
+    margin-left: 54px;
+}
+
+.empowerdebit-title-open {
+    margin-top: 34px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Roboto";
+    font-weight: 400; 
+}
+
+.footer {
+    background-color: black;
+    padding: 83px 0px 200px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__company-info {
+    max-width: 254px;
+    color: gray;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 28px;
+    margin-left: 334px;
+}
+
+.footer__menu {
+    display: flex;
+    margin-right: 338px;
+}
+
+.footer__menu-link {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Roboto";
+    font-weight: 400;
+
+}
+
+.footer__menu-list:first-child {
+    margin-right: 39px;
+}
+
+.footer__menu-list:last-child {
+    margin-left: 49px;
+}
+
+.footer__menu-item {
+    margin-bottom: 20px;
+}
+
+.footer__menu-item:last-child {
+    margin-bottom: 0px;
+}
