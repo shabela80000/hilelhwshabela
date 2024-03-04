@@ -1,0 +1,665 @@
+.header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;   
+}
+
+.nav-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto";
+}
+
+.list-nav{
+    display: flex;
+    column-gap: 30px;    
+}
+
+a.nav-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+    color: #12100CB2;
+}
+
+.button-search{
+    background-color: #12100C;
+    color: white;
+    font-size: 14px;
+    width: 80px;
+    height: 32px;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 50px 50px;
+    font-family: Roboto;   
+}
+
+.main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+
+.alvays-content{
+    display: flex;
+    margin-top: 32px;
+    column-gap: 2px;
+}
+
+.alvays-block{
+   margin-top: 139px;
+   
+}
+
+.title-alvays{
+font-family: Roboto;
+font-size: 80px;
+font-weight: 700;
+line-height: 88px;
+}
+
+.text-alvays{
+font-family: Roboto;
+font-size: 23px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: #12100CB2;
+margin-top: 30px;
+}
+
+.btn-try{
+    
+width: 160px;
+height: 46px;
+border-radius: 16px;
+background: #FFAE33;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+padding-left: 46px;
+}
+
+.btn-alvays{
+    display: flex;
+    margin-top: 48px;    
+}
+
+.open{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-left: 24px;
+color: #12100CB2;
+
+}
+
+.icons{
+    display: flex;
+    margin-top: 28px;
+}
+.fox{
+    margin-right: 28px;
+}
+
+.git{
+    margin-right: 28px;
+}
+
+.launhc {
+    display: flex; 
+    gap: 65px;
+    margin-top: 68px;
+  }
+  
+  .launch-content {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 68px;
+
+  }
+  
+  
+  .workspase {
+    margin-bottom: 20px; 
+  }
+  
+  .btn-group {
+    display: flex;
+    margin-top: 85px; 
+  }
+  
+  .btn-group > div {
+    margin-right: 16px; 
+  }
+  
+  .more,
+  .document {
+    
+    border: none; 
+    width: 158.54px;
+    height: 32px;
+    border-radius: 10.5px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+  }
+  
+  .document{
+  background: #FFB0AE;
+  color: #000000;
+  padding: 7px 31px; 
+  
+  }
+.more{
+    color: #000000;
+    background-color: #FFAE33;
+
+}
+
+.example{
+font-family: Roboto;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+
+}
+
+.launch-content-two{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.remote-titl{
+font-family: Roboto;
+font-size: 54px;
+font-weight: 700;
+line-height: 72px;
+text-align: center;
+margin-top: 143px;
+margin-bottom: 80px;
+
+}
+
+.remote-descriptyon{
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+align: center;
+max-width: 877px;
+margin-top: 50px;
+margin-bottom: 32px;
+}
+
+.remote-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .btn-remote {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+  }
+  
+  .btn-crhome,
+  .btn-firefox {
+    margin: 0 16px; 
+  }
+
+  .btn-btn-chrome,
+  .btn-btn-fox {
+color: #12100C;
+text-align: center;
+
+
+
+  }
+
+
+  .btn-crhome button,
+  .btn-firefox button {
+    
+    padding: 7px 12px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    box-shadow: 0px 0.5px 2px 0px #00000069; 
+  }
+  
+
+  .btn-crhome img,
+  .btn-firefox img {
+    margin-right: 10px;
+ }
+  
+ .used-title{
+font-family: Roboto;
+font-size: 54px;
+font-weight: 700;
+line-height: 64px;
+text-align: center;
+margin-top: 179px;
+margin-bottom: 49px;
+
+ }
+
+ .used-content {
+  
+    align-items: center;
+    text-align: center;
+  }
+  
+  .used-block3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .used-block3 .git {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  
+  .logos-company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .logos-company img {
+    max-width: 138px;
+    margin: 24px; 
+  }
+  .used-wraper {
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  .used-block3 {
+    flex: 1;  
+    margin: 0 auto; 
+    
+  }
+  .git  {
+    max-width: 384px;
+   background: white;
+   border-radius: 16px;
+   
+  }
+
+  .git-text,
+  .git-naitle {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #12100C;
+    padding-left: 24px;
+    padding-right: 24px;
+
+  }
+
+  .git-naitle{
+    margin-top: 8px;
+  }
+  .name1{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:  #12100C;
+margin-top: 16px;
+margin-left: 12px;
+
+  }
+
+  .git-text.mr {
+    margin-top: 24px;
+    margin-right: 103px;
+    text-align: right;
+  }
+.git-text.mar{
+    margin-top: 24px;
+}
+.git-text.mrgi{
+    margin-top: 24px; 
+}
+
+.name-foto1 {
+   margin-left: 24px;
+    display: flex;
+    align-items: center; 
+  
+}
+
+.creator {
+    max-width: 384px;
+    text-align: left;
+  
+}
+.cofunder{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    max-width: 276px;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-left: 12px;
+margin-right: 24px;
+
+}
+
+ .img-ben{
+    margin-top: -20px;
+ }
+.get-title{
+    font-family: Roboto;
+font-size: 54px;
+font-weight: 700;
+line-height: 72px;
+text-align: center;
+margin-top: 178px;
+
+
+}
+
+.flex-blocks{
+    margin-top: 48px;
+    display: flex;
+    column-gap: 30px;
+}
+
+.flex-block{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 56px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.connect-repository{
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+text-align: center;
+}
+
+.get-description{
+    font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+color: #12100CB2;
+text-align: center;
+margin-top: 8px;
+
+}
+
+.bolt{
+    font-weight: 700;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 64px;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 20px;
+    width: 262px;
+    height: 46px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #FC6D26; 
+}
+
+button img {
+    margin-left: 10px; 
+}
+
+.github-btn {
+    background-color: #000000;
+}
+
+.bitbucket-btn {
+    background-color: #2684FF;
+}
+
+.get-description-bottom {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #12100CB2;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.flex-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 530px;
+    background-color: #F9F9F9;
+    padding: 20px; 
+  }
+  
+  .example-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 13px;
+    background: #dad8d8;
+    border-radius: 12px;
+
+  }
+  
+  .example-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .example-button {
+    width: 143px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: #080808; 
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-right: 12px;
+    text-align: center;
+    padding: 7px 12px;
+    
+  }
+  
+  .example-text{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+color: #12100CB2;
+text-align: center;
+padding: 15px;
+
+  }
+  .example-image {
+    margin-right: 10px;
+    margin-left: 16px;
+    
+  }
+  
+  .connect-repository,
+  .get-description {
+    text-align: center;
+  }
+  
+  .xaemple-list {
+    padding: 0;
+    list-style-type: none;
+    width: 530px; 
+    
+
+     
+  }
+  
+  .example-box{
+    margin-top: 34px;
+  }
+
+
+  .footer {
+    background-color: #f9f9f9;
+    padding-top: 48px;
+    padding-bottom: 60px;
+    margin-top: 160px;
+   
+
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 852px;
+    margin: 0 auto;
+  }
+  
+  .footer-item.two .star {
+    color: #FF8A00;
+  }
+  
+  
+  
+  .block ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .block ul li {
+    margin-bottom: 10px;
+  }
+  
+  
+  .bottom {
+    width: 852px;
+    margin: 0 auto;
+    box-shadow: 0px -2px 0px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    padding-top: 8px; 
+    margin-bottom: 48px;
+    margin-top: 38px;
+  }
+  
+  .block-icons {
+    display: flex;
+    align-items: flex-end; 
+  }
+  
+  .icons {
+    display: flex;
+  }
+  
+  .icons img {
+    margin-right: 10px; 
+  }
+  
+  .logo-text {
+    display: flex;
+    align-items: flex-end; 
+  }
+  
+  .logo {
+    margin-right: 8px; 
+  }
+  
+  .cop-git {
+    font-size: 12px; 
+  }
+  
+  
+  
+  .footer-title{
+    font-family: Roboto;
+font-size: 13px;
+font-weight: 700;
+line-height: 20px;
+color: #12100C;
+text-align: left;
+
+  }
+
+  .footer-item{
+    margin-top: 8px;
+    max-width: 100px;
+  }
+
+  .footer-description{
+    font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+color: #12100CB2;
+text-align: left;
+
+  }
+
+  .block-icons{
+    display: flex;
+    align-items: center;
+  }
+
+  .cop-git{
+    margin-left: 8px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: #12100CB2;
+
+  }
