@@ -1,0 +1,184 @@
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+.links {
+    display: flex;
+   justify-content: center;
+    margin-top: 23px;
+    margin-bottom: 26px;
+}
+
+.link {
+    padding: 10px;
+    margin: 0 16px;
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.1px;
+    color: #18181B;
+}
+
+
+.link:nth-child(1) {
+    color: #18181B; 
+}
+
+.link:nth-child(2) {
+    color: #71717A; 
+}
+
+.positive-change {
+    color: #10B981; 
+}
+
+.negative-change {
+    color: #F43F5E; 
+}
+
+
+.name {
+    display: flex; /* Размещаем элементы списка в строку */
+    list-style: none; /* Убираем маркеры списка */
+    border: 2px solid transparent; /* Убираем бордер */
+    border-top: 2px solid #F4F4F5; /* Добавляем бордер только сверху */
+    padding: 10px;
+    margin: 0px 0px 16px;
+    margin-left: 20px;
+}
+
+.asset_list {
+    display: flex; /* Размещаем элементы списка в строку */
+    flex-wrap: nowrap;
+    gap: 220px;
+    width: 1200px;
+ 
+}
+
+.asset_list_text {
+    font-family: Lexend;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #18181B;
+}
+
+
+
+.list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid transparent; /* Убираем бордер */
+    border-top: 2px solid #F4F4F5; /* Добавляем бордер только сверху */
+    padding: 20px;
+   
+    font-family: Lexend;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.list li:first-child {
+    border-top: none; /* Убираем бордер для первого элемента списка */
+}
+
+
+.list li img {
+    margin-right: 8px; /* Отступ между изображением и текстом */
+}
+
+.svg_list {
+    font-size: 16px;
+   padding-top: 7px;
+   
+   
+}
+
+.xmen {
+    display: flex;
+   
+
+}
+
+.last_price {
+  
+}
+
+
+
+
+.buy-button {
+    width: 56px;
+    height: 33px;
+    border-radius: 4px;
+    background-color: #9AFD4C;
+    color: #080808;
+    font-family: Lexend;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    border: none;
+    
+
+}
+
+.view-all-markets{
+    font-family: Lexend;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #18181B;
+padding: 2px;
+margin-top: 23px;
+
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+  
+    border: 2px solid transparent; /* Убираем бордер */
+    border-top: 2px solid #F4F4F5; /* Добавляем бордер только сверху */
+    
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+    margin-top: 23px;
+}
+
+
+.foto2{
+    position: relative;
+    left: -8px;
+}
+
+.foto3 {
+    position: relative;
+    left: -16px;
+}
+
+.foto4 {
+    position: relative;
+    left: -24px; 
+}
