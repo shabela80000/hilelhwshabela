@@ -1,14 +1,13 @@
-.main {
+.container {
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 23px;
 }
 
 .links {
     display: flex;
     justify-content: center;
+    margin-bottom: 32px;
     margin-top: 23px;
-    margin-bottom: 26px;
 }
 
 .link {
@@ -19,151 +18,68 @@
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 0.1px;
+    text-align: center;
     color: #18181B;
-}
-
-.link:nth-child(1) {
-    color: #18181B; 
 }
 
 .link:nth-child(2) {
-    color: #71717A; 
+    margin-left: 32px;
+    color: #71717A;
 }
 
-.positive-change {
-    color: #10B981; 
-    position: relative;
-    left: -34px;
-}
-
-.negative-change {
-    color: #F43F5E; 
-    position: relative;
-    left: -51px;
-}
-
-.negative-change1 {
-    position: relative;
-    left: -57px;
-    color: #F43F5E;
-}
-
-.positive-change1 {
-    position: relative;
-    left: -42px;
-    color: #10B981;
-}
-
-.positive-change2 {
-    position: relative;
-    left: -52px;
-    color: #10B981;
-}
-
-.marketcap0 {
-    position: relative;
-    left: -7px;
-}
-
-.marketcap1 {
-    position: relative;
-    left: -7px;
-}
-
-.marketcap2 {
-    position: relative;
-    left: -8px;
-}
-
-.name {
-    border: 2px solid transparent; 
-    border-top: 2px solid #F4F4F5; 
-    border-bottom: 2px solid #F4F4F5 ;
-}
-
-.asset_list {
-    display: flex; /* Размещаем элементы списка в строку */
-    gap: 220px;
-    padding: 20px;
-}
-
-.asset_list_text {
-    font-family: Lexend;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 18px;
-    color: #18181B;
-}
-
-.last_price {
-    position: relative;
-    left: -40px;
-}
-
-.last_price1 {
-    position: relative;
-    left: -45px;
-}
-
-.last_price2 {
-    position: relative;
-    left: -61px;
-}
-
-.last_price3 {
-    position: relative;
-    left: -61px;
-}
-
-.last_price4 {
-    position: relative;
-    left: -61px;
-}
-
-.last_price5 {
-    position: relative;
-    left: -66px;
-}
-
-.list {
-    list-style: none;
-    padding: 0;
-    width: 100%;
-}
-
-.list li {
+.crypto_row{
     display: flex;
-    justify-content: space-between;
+}
+
+.crypto{
+    flex-grow: 1;
+    display: flex;
     align-items: center;
-    border: 2px solid transparent; /* Убираем бордер */
-    border-top: 2px solid #F4F4F5; /* Добавляем бордер только сверху */
     padding: 20px;
+    border-top: 2px solid #e0e0e0; 
+}
+
+.lastprise{
+    position: relative;
+    right: 16px;
+}
+
+.changelast{
+    position: relative;
+    right: 37px;
+}
+
+.marketlast{
+    position: relative;
+    right: 49px;
+}
+
+ .token, .price, .change, .market_cup {
+flex-grow: 1;
+flex-basis: 0;
+display: flex;
+align-items: center;
+font-family: Lexend;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+ }
+
+.token-name{
+    margin-left: 8px;
     font-family: Lexend;
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0;
-    text-align: left;
+    letter-spacing: 0em;
 }
 
-.list li:first-child {
-    border-top: none; /* Убираем бордер для первого элемента списка */
-}
-
-.list li img {
-    margin-right: 8px; /* Отступ между изображением и текстом */
-}
-
-.svg_list {
-    font-size: 16px;
-    padding-top: 7px;
-}
-
-.xmen {
+ .crypto-buy {
     display: flex;
-}
-
-.buy-button {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
     width: 56px;
     height: 33px;
     border-radius: 4px;
@@ -174,27 +90,30 @@
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 0.1px;
-    text-align: center;
     border: none;
+    margin-top: 20px;
+ }
+
+
+ .crypto-buy1 {
+    border-top: 2px solid #e0e0e0;
+ }
+
+
+.positive-change {
+    color: #10B981; 
 }
 
-.view-all-markets {
-    font-family: Lexend;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #18181B;
-    padding: 2px;
-    margin-top: 23px;
+.negative-change {
+    color: #F43F5E; 
 }
+
+
 
 .icons {
     display: flex;
     justify-content: center;
-    border: 2px solid transparent; /* Убираем бордер */
-    border-top: 2px solid #F4F4F5; /* Добавляем бордер только сверху */
+    border-top: 2px solid #e0e0e0; 
 }
 
 .icons img {
@@ -216,4 +135,19 @@
 .foto4 {
     position: relative;
     left: -24px; 
+}
+
+.btn-vien {
+    display: flex;
+    margin-top: 23px;
+   
+}
+
+.view-all-markets {
+    font-family: Lexend;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #18181B;
+    
 }
