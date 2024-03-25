@@ -1,0 +1,319 @@
+/* Общие стили */
+
+.header {
+    background-color: black;
+    padding: 40px;
+  
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.nav-list {
+    display: flex;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.nav-link, .policy-link {
+    color: #717171;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav-contact, .footer-contact {
+    color: #717171;
+    font-family: Inter;
+    font-size: 20px;
+}
+ .nav-logo {
+    margin-right: 187px;
+ }
+
+
+.footer {
+    background-color: black;
+    padding: 40px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.policy-link {
+    flex-direction: column;
+    color: #FFFFFF; 
+    
+}
+.footer-contact {
+    color: #FFFFFF;
+    
+   
+}
+
+/* Стили для планшетов */
+@media screen and (max-width: 800px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        row-gap: 7px;
+        margin-left: 0;
+    }
+
+    .nav-contact {
+        margin-right: 0;
+        padding: 12px;
+    }
+
+    .img-logo {
+        padding: 12px;
+    }
+.footer-info {
+    flex-direction: column;
+        row-gap: 15px;
+}
+    .policy {
+        margin-left: 0;
+        flex-direction: column;
+        row-gap: 15px;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 0;
+        
+    }
+
+    .footer-contact {
+        margin-right: 0;
+    }
+}
+
+/* Стили для мобильных устройств */
+@media screen and (max-width: 480px) {
+    .nav-link, .policy-link, .nav-contact, .footer-contact {
+        font-size: 18px;
+    }
+}
+
+
+
+
+.main-content-page-one {
+    background-color: #CBCBCB;
+    width: 100%;
+    text-align: center;
+}
+
+
+.main-title {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77.45px;
+    color: #5C00B8;
+    margin-bottom: 40px;
+    padding-top: 71px;
+   
+    
+}
+
+.main-img {
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.main-img img {
+    display: block;
+    margin: 0 auto; /* Выравнивание изображения по центру */
+}
+
+.btn-14pro button {
+    width: 350px;
+    height: 70px;
+    background-color: #490E84;
+    color: white;
+    border: none;
+    font-family: Inter;
+    font-size: 24px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    
+}
+
+/* Стили для планшетов */
+@media screen and (max-width: 800px) {
+    .main-title {
+        font-size: 48px;
+        line-height: 58.08px;
+    }
+
+    .btn-14pro button {
+        width: 250px;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+/* Стили для мобильных устройств */
+@media screen and (max-width: 480px) {
+    .main-title {
+        font-size: 32px;
+        line-height: 38.73px;
+    }
+
+    .btn-14pro button {
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+
+
+.title-two {
+    text-align: center; 
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    margin-top: 70px;
+    color: #717171;
+
+}
+.card-page-two {
+    font-size: 0; /* Избегаем пробелов между инлайн-блоками */
+    white-space: nowrap; /* Запрещаем перенос элементов на новую строку */
+    margin: 0 -10px; /* Убираем отступы между карточками */
+    margin-top: 50px;
+}
+
+.card {
+    display: inline-block; /* Располагаем карточки в одной строке */
+    width: calc(25% - 20px); /* Устанавливаем ширину карточки на 25% с учетом промежутка */
+    margin: 0 10px; /* Промежуток между карточками */
+    vertical-align: top; /* Выравниваем карточки по верхнему краю */
+    font-size: initial; /* Возвращаем базовый размер шрифта */
+}
+
+.card-name {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: black; /* Цвет текста черный */
+    margin-top: 20px; /* Добавляем отступ сверху */
+    text-align: center; 
+    
+}
+
+.card-discription {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    color: black; /* Цвет текста черный */
+    margin-top: 10px; /* Добавляем небольшой отступ сверху */
+    text-align: center; 
+    margin-bottom: 70px;
+}
+
+
+
+.main-content-page-fre {
+    display: flex;
+    flex: 1;
+}
+
+.order-form,
+.order-form-img {
+    flex: 1; /* Устанавливаем равномерное распределение места между блоками */
+    max-width: 46%; /* Ограничиваем максимальную ширину блоков */
+  
+}
+ 
+.order-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрируем содержимое по вертикали */
+    align-items: center; /* Центрируем содержимое по горизонтали */
+    padding: 40px;
+    background-color: #574B63;
+}
+
+.btn-btn-submit {
+    margin-top: 20px; /* Добавляем небольшой отступ между формой и кнопкой */
+}
+
+ 
+
+.question {
+color: #FFFFFF;
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.73px;
+text-align: center;
+margin-top: 137px;
+
+}
+
+.order-form-img {
+  
+}
+.form-group {
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+label-name {
+    font-weight: bold;
+    margin-top: 71px;
+    
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: 100%;
+    
+}
+
+button {
+   
+width: 240px;
+height: 50px;
+border-radius: 30px 30px 30px 30px;
+
+
+}
+
+.btn-submit {
+    
+}
+
+.btn-btn-submit {
+    align-items: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
