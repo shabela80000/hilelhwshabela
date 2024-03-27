@@ -1,4 +1,3 @@
-/* Общие стили */
 
 .header {
     background-color: black;
@@ -38,84 +37,51 @@
 }
  .nav-logo {
     margin-right: 187px;
+    margin-top: 10px;
+    margin-bottom: 10px;
  }
 
-
-.footer {
-    background-color: black;
-    padding: 40px;
-}
-
-.footer-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-
-.policy-link {
-    flex-direction: column;
-    color: #FFFFFF; 
-    
-}
-.footer-contact {
-    color: #FFFFFF;
-    
-   
-}
-
-/* Стили для планшетов */
+/* Медіа-запит для планшетів */
 @media screen and (max-width: 800px) {
     .nav {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .nav-list {
+        margin-top: 10px; 
+        justify-content: center; 
         flex-direction: column;
-        row-gap: 7px;
-        margin-left: 0;
+        align-items: center;
+        gap: 10px;
     }
+        
+    .nav-logo {
+        order: -1; 
+        
+       margin: 0 auto;
+    }
+
+   
 
     .nav-contact {
-        margin-right: 0;
-        padding: 12px;
-    }
-
-    .img-logo {
-        padding: 12px;
-    }
-.footer-info {
-    flex-direction: column;
-        row-gap: 15px;
-}
-    .policy {
-        margin-left: 0;
-        flex-direction: column;
-        row-gap: 15px;
         text-align: center;
+        margin-top: 10px;
+        color: #cbeb1a;
     }
 
-    .logo-footer {
-        margin-left: 0;
-        
-    }
 
-    .footer-contact {
-        margin-right: 0;
-    }
 }
 
-/* Стили для мобильных устройств */
+/* Медіа-запит для мобільних пристроїв */
 @media screen and (max-width: 480px) {
-    .nav-link, .policy-link, .nav-contact, .footer-contact {
-        font-size: 18px;
+    .nav-logo {
+        margin-top: 0; 
+        margin: 0 auto;
+        order: -1; 
+        margin-bottom: 20px; 
     }
 }
-
-
-
 
 .main-content-page-one {
     background-color: #CBCBCB;
@@ -132,6 +98,7 @@
     color: #5C00B8;
     margin-bottom: 40px;
     padding-top: 71px;
+    text-transform: uppercase;
    
     
 }
@@ -143,7 +110,8 @@
 
 .main-img img {
     display: block;
-    margin: 0 auto; /* Выравнивание изображения по центру */
+    margin: 0 auto; 
+    
 }
 
 .btn-14pro button {
@@ -156,11 +124,25 @@
     font-size: 24px;
     border-radius: 30px;
     margin-bottom: 40px;
+    text-transform: uppercase;
     
 }
 
-/* Стили для планшетов */
 @media screen and (max-width: 800px) {
+    .main-img {
+        max-width: 100%; 
+        height: auto; 
+        
+    }
+
+
+    
+    .bloc-gren {
+        width: 100%; 
+        margin: 0 auto; 
+        background-color: #CBCBCB;
+    }
+
     .main-title {
         font-size: 48px;
         line-height: 58.08px;
@@ -171,7 +153,14 @@
         height: 50px;
         font-size: 18px;
     }
+    .img-logo {
+        max-width: 100%;
+        display: block; 
+        margin: 0 auto; 
+    }
+
 }
+
 
 /* Стили для мобильных устройств */
 @media screen and (max-width: 480px) {
@@ -234,6 +223,20 @@
     margin-top: 10px; /* Добавляем небольшой отступ сверху */
     text-align: center; 
     margin-bottom: 70px;
+}
+
+/* Для планшетів */
+@media screen and (max-width: 800px) {
+    .card {
+        max-width: 50%; /* Розмір картки 50% ширини контейнера (2 картки в кожному ряду) */
+    }
+}
+
+/* Для мобільних пристроїв */
+@media screen and (max-width: 480px) {
+    .card {
+       max-width: 100%; /* Розмір картки 100% ширини контейнера (1 картка в кожному ряду) */
+    }
 }
 
 
@@ -317,3 +320,27 @@ button:hover {
     background-color: #45a049;
 }
 
+
+.footer {
+    background-color: black;
+    padding: 40px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.policy-link {
+    flex-direction: column;
+    color: #FFFFFF; 
+    
+}
+.footer-contact {
+    color: #FFFFFF;
+    
+   
+}
