@@ -1,8 +1,6 @@
-
 .header {
     background-color: black;
     padding: 40px;
-  
 }
 
 .container {
@@ -15,7 +13,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
 }
 
 .nav-list {
@@ -35,13 +32,13 @@
     font-family: Inter;
     font-size: 20px;
 }
- .nav-logo {
+
+.nav-logo {
     margin-right: 187px;
     margin-top: 10px;
     margin-bottom: 10px;
- }
+}
 
-/* Медіа-запит для планшетів */
 @media screen and (max-width: 800px) {
     .nav {
         flex-direction: column; 
@@ -49,31 +46,25 @@
     }
 
     .nav-list {
-        margin-top: 10px; 
+        margin-top: 25px; 
         justify-content: center; 
         flex-direction: column;
         align-items: center;
-        gap: 10px;
-    }
-        
-    .nav-logo {
-        order: -1; 
-        
-       margin: 0 auto;
+        gap: 20px;
     }
 
-   
+    .nav-logo {
+        order: -1; 
+        margin: 0 auto;
+    }
 
     .nav-contact {
         text-align: center;
-        margin-top: 10px;
+        margin-top: 20px;
         color: #cbeb1a;
     }
-
-
 }
 
-/* Медіа-запит для мобільних пристроїв */
 @media screen and (max-width: 480px) {
     .nav-logo {
         margin-top: 0; 
@@ -84,11 +75,9 @@
 }
 
 .main-content-page-one {
-    background-color: #CBCBCB;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
 }
-
 
 .main-title {
     font-family: Inter;
@@ -99,8 +88,12 @@
     margin-bottom: 40px;
     padding-top: 71px;
     text-transform: uppercase;
-   
-    
+}
+
+.bloc-gren {
+    max-width: auto; 
+    margin: 0 auto; 
+    background-color: #CBCBCB;
 }
 
 .main-img {
@@ -109,9 +102,8 @@
 }
 
 .main-img img {
-    display: block;
-    margin: 0 auto; 
-    
+    max-width: 100%;
+    height: auto;
 }
 
 .btn-14pro button {
@@ -125,22 +117,17 @@
     border-radius: 30px;
     margin-bottom: 40px;
     text-transform: uppercase;
-    
 }
 
 @media screen and (max-width: 800px) {
     .main-img {
         max-width: 100%; 
         height: auto; 
-        
     }
 
-
-    
     .bloc-gren {
-        width: 100%; 
+        width: auto; 
         margin: 0 auto; 
-        background-color: #CBCBCB;
     }
 
     .main-title {
@@ -153,16 +140,15 @@
         height: 50px;
         font-size: 18px;
     }
+
     .img-logo {
         max-width: 100%;
         display: block; 
         margin: 0 auto; 
+        padding: 15px;
     }
-
 }
 
-
-/* Стили для мобильных устройств */
 @media screen and (max-width: 480px) {
     .main-title {
         font-size: 32px;
@@ -176,8 +162,6 @@
     }
 }
 
-
-
 .title-two {
     text-align: center; 
     font-family: Inter;
@@ -187,7 +171,6 @@
     margin-top: 70px;
     color: #717171;
     text-transform: uppercase;
-
 }
 
 .card-page-two {
@@ -197,20 +180,20 @@
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 50px;
-   
 }
+
 .card {
-    width: calc(25% - 20px); /* Задаємо ширину кожної картки, віднімаючи відступи */
+    width: calc(25% - 20px);
     margin-bottom: 20px;
-    box-sizing: border-box; /* Щоб врахувати padding та border у розрахунку ширини */
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Вирівнюємо контент по вертикалі */
-    text-align: center; /* Вирівнюємо текст по горизонталі */
+    justify-content: center;
+    text-align: center;
 }
 
 .card h3 {
-    margin: 0; /* Видаляємо зовнішні відступи у тексту */
+    margin: 0;
     margin-top: 20px;
 }
 
@@ -218,16 +201,14 @@
     margin-top: 10px;
 }
 
-
 .card-name {
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
-    color: black; /* Цвет текста черный */
-    margin-top: 20px; /* Добавляем отступ сверху */
-    text-align: center; 
-    
+    color: black;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .card-discription {
@@ -235,182 +216,163 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 18.2px;
-    color: black; /* Цвет текста черный */
-    margin-top: 10px; /* Добавляем небольшой отступ сверху */
-    text-align: center; 
+    color: black;
+    margin-top: 10px;
+    text-align: center;
     margin-bottom: 70px;
 }
 
 @media (max-width: 800px) {
-
     .card {
-        width: calc(45% - 20px); /* Задаємо ширину кожної картки на планшетах */
+        width: calc(33% - 20px);
         padding: 15px;
-        box-sizing: border-box; /* Щоб врахувати padding та border у розрахунку ширини */
-   
-     
+        box-sizing: border-box;
     }
 }
 
 @media (max-width: 480px) {
     .card {
-        width: calc(95% - 20px); /* Задаємо ширину кожної картки на мобільних пристроях */
+        width: calc(45% - 20px);
     }
 }
 
-
-
 .content-wraper {
-    display: flex; /* Встановлення контейнера flexbox */
+    display: flex;
     justify-content: center;
-    width: 100%; /* Забирає всю доступну ширину */
+    width: 100%;
     flex: 1;
 }
 
-
 .order-form {
-    align-items: center; /* Центрируем содержимое по горизонтали */
+    align-items: center;
     padding: 40px;
     background-color: #574B63;
     max-width: 600px;
 }
 
 .question {
-color: #FFFFFF;
-font-family: Inter;
-font-size: 32px;
-font-weight: 700;
-line-height: 38.73px;
-text-align: center;
-margin-top: 80px;
-
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: center;
+    margin-top: 80px;
+    text-transform: uppercase;
 }
-
 
 .form-group {
     margin-bottom: 20px;
     margin-top: 70px;
 }
 
-/* Стилі для етикетки */
 .label-name {
-    display: block; /* Зробити етикетку блоковим елементом */
-    color: #f8eeee; /* Колір тексту етикетки */
-    margin-bottom: -1px; /* Встановити відстань між етикеткою і полем вводу */
-
-
+    display: block;
+    color: #f8eeee;
+    margin-bottom: -1px;
 }
-
 
 input[type="text"],
 input[type="tel"] {
-    border: none; /* Видалити рамку */
-    border-bottom: 1px solid #faf7f7; /* Додати нижнє підкреслення */
-    background-color: transparent; /* Зробити фон прозорим */
-    outline: none; /* Видалити контур */
+    border: none;
+    border-bottom: 1px solid #faf7f7;
+    background-color: transparent;
+    outline: none;
     width: 100%;
     font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 18.2px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
 }
-
 
 .help {
     text-align: center;
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 18.2px;
-color: #FFFFFF;
-
-
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    color: #FFFFFF;
 }
+
 button {
-   
-width: 240px;
-height: 50px;
-border-radius: 30px 30px 30px 30px;
-font-family: Inter;
-font-size: 14px;
-font-weight: 700;
-line-height: 18.2px;
-color: #490E84;
-
-
+    width: 240px;
+    height: 50px;
+    border-radius: 30px 30px 30px 30px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.2px;
+    color: #490E84;
 }
-
-
 
 .btn-btn-submit {
-   text-align: center;
-    margin-top: 30px; /* Добавляем небольшой отступ между формой и кнопкой */
+    text-align: center;
+    margin-top: 30px;
 }
 
 button:hover {
     background-color: #45a049;
 }
 
+.img-logo-ipone {
+    max-width: 100%;
+}
 
 @media screen and (max-width: 800px) {
     .content-wraper {
-        flex-direction: column; /* Змінюємо напрямок флексбокса на вертикальний */
-       
+        flex-direction: column;
     }
 
     .order-form {
-        margin-bottom: 10px; /* Додаємо відступ вниз для зручного читання */
+        margin-bottom: 10px;
+        max-width: 100%;
     }
 
-
+    .img-logo-ipone {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
 }
+
 @media screen and (max-width: 480px) {
     .form-group {
-        margin-bottom: 20px; /* Збільшуємо відступ між полями форми */
+        margin-bottom: 20px;
     }
 }
-
-
 
 .footer {
     background-color: black;
     padding: 40px;
-  
-   
+}
+
+.policy-link {
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.footer-contact {
+    color: #FFFFFF;
 }
 
 .footer-info {
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
-
-
-.policy-link {
-    flex-direction: column;
-    color: #FFFFFF; 
-    
-}
-.footer-contact {
-    color: #FFFFFF;
-    
-   
-}
-
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
     .footer-info {
-        flex-direction: column; /* Располагаем элементы вертикально на мобильных устройствах */
-        align-items: center; /* Выравниваем элементы по центру */
+        flex-direction: column;
+        align-items: center;
     }
 
     .logo-footer {
-        order: 1; /* Помещаем логотип в конец строки */
-        margin: 0; /* Сбрасываем отступы */
+        order: 1;
+        margin: 0;
     }
 
     .footer-contact, .policy {
-        margin-top: 10px; /* Пространство между элементами */
+        margin-top: 10px;
     }
 }
