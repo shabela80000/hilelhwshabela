@@ -186,22 +186,38 @@
     line-height: 38.73px;
     margin-top: 70px;
     color: #717171;
+    text-transform: uppercase;
 
 }
+
 .card-page-two {
-    font-size: 0; /* Избегаем пробелов между инлайн-блоками */
-    white-space: nowrap; /* Запрещаем перенос элементов на новую строку */
-    margin: 0 -10px; /* Убираем отступы между карточками */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 50px;
+   
+}
+.card {
+    width: calc(25% - 20px); /* Задаємо ширину кожної картки, віднімаючи відступи */
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Щоб врахувати padding та border у розрахунку ширини */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Вирівнюємо контент по вертикалі */
+    text-align: center; /* Вирівнюємо текст по горизонталі */
 }
 
-.card {
-    display: inline-block; /* Располагаем карточки в одной строке */
-    width: calc(25% - 20px); /* Устанавливаем ширину карточки на 25% с учетом промежутка */
-    margin: 0 10px; /* Промежуток между карточками */
-    vertical-align: top; /* Выравниваем карточки по верхнему краю */
-    font-size: initial; /* Возвращаем базовый размер шрифта */
+.card h3 {
+    margin: 0; /* Видаляємо зовнішні відступи у тексту */
+    margin-top: 20px;
 }
+
+.card-discription {
+    margin-top: 10px;
+}
+
 
 .card-name {
     font-family: Inter;
@@ -225,48 +241,39 @@
     margin-bottom: 70px;
 }
 
-/* Для планшетів */
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
+
     .card {
-        max-width: 50%; /* Розмір картки 50% ширини контейнера (2 картки в кожному ряду) */
+        width: calc(45% - 20px); /* Задаємо ширину кожної картки на планшетах */
+        padding: 15px;
+        box-sizing: border-box; /* Щоб врахувати padding та border у розрахунку ширини */
+   
+     
     }
 }
 
-/* Для мобільних пристроїв */
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .card {
-       max-width: 100%; /* Розмір картки 100% ширини контейнера (1 картка в кожному ряду) */
+        width: calc(95% - 20px); /* Задаємо ширину кожної картки на мобільних пристроях */
     }
 }
 
 
 
-.main-content-page-fre {
-    display: flex;
+.content-wraper {
+    display: flex; /* Встановлення контейнера flexbox */
+    justify-content: center;
+    width: 100%; /* Забирає всю доступну ширину */
     flex: 1;
 }
 
-.order-form,
-.order-form-img {
-    flex: 1; /* Устанавливаем равномерное распределение места между блоками */
-    max-width: 46%; /* Ограничиваем максимальную ширину блоков */
-  
-}
- 
+
 .order-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Центрируем содержимое по вертикали */
     align-items: center; /* Центрируем содержимое по горизонтали */
     padding: 40px;
     background-color: #574B63;
+    max-width: 600px;
 }
-
-.btn-btn-submit {
-    margin-top: 20px; /* Добавляем небольшой отступ между формой и кнопкой */
-}
-
- 
 
 .question {
 color: #FFFFFF;
@@ -275,45 +282,69 @@ font-size: 32px;
 font-weight: 700;
 line-height: 38.73px;
 text-align: center;
-margin-top: 137px;
+margin-top: 80px;
 
 }
 
-.order-form-img {
-  
-}
+
 .form-group {
     margin-bottom: 20px;
     margin-top: 70px;
 }
 
-label-name {
-    font-weight: bold;
-    margin-top: 71px;
-    
+/* Стилі для етикетки */
+.label-name {
+    display: block; /* Зробити етикетку блоковим елементом */
+    color: #f8eeee; /* Колір тексту етикетки */
+    margin-bottom: -1px; /* Встановити відстань між етикеткою і полем вводу */
+
+
 }
+
 
 input[type="text"],
 input[type="tel"] {
+    border: none; /* Видалити рамку */
+    border-bottom: 1px solid #faf7f7; /* Додати нижнє підкреслення */
+    background-color: transparent; /* Зробити фон прозорим */
+    outline: none; /* Видалити контур */
     width: 100%;
-    
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
 }
 
+
+.help {
+    text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+color: #FFFFFF;
+
+
+}
 button {
    
 width: 240px;
 height: 50px;
 border-radius: 30px 30px 30px 30px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+line-height: 18.2px;
+color: #490E84;
 
 
 }
 
-.btn-submit {
-    
-}
+
 
 .btn-btn-submit {
-    align-items: center;
+   text-align: center;
+    margin-top: 30px; /* Добавляем небольшой отступ между формой и кнопкой */
 }
 
 button:hover {
@@ -321,14 +352,36 @@ button:hover {
 }
 
 
+@media screen and (max-width: 800px) {
+    .content-wraper {
+        flex-direction: column; /* Змінюємо напрямок флексбокса на вертикальний */
+       
+    }
+
+    .order-form {
+        margin-bottom: 10px; /* Додаємо відступ вниз для зручного читання */
+    }
+
+
+}
+@media screen and (max-width: 480px) {
+    .form-group {
+        margin-bottom: 20px; /* Збільшуємо відступ між полями форми */
+    }
+}
+
+
+
 .footer {
     background-color: black;
     padding: 40px;
+  
+   
 }
 
 .footer-info {
     display: flex;
-    justify-content: space-between;
+  justify-content: space-between;
     align-items: center;
 }
 
@@ -343,4 +396,21 @@ button:hover {
     color: #FFFFFF;
     
    
+}
+
+
+@media screen and (max-width: 767px) {
+    .footer-info {
+        flex-direction: column; /* Располагаем элементы вертикально на мобильных устройствах */
+        align-items: center; /* Выравниваем элементы по центру */
+    }
+
+    .logo-footer {
+        order: 1; /* Помещаем логотип в конец строки */
+        margin: 0; /* Сбрасываем отступы */
+    }
+
+    .footer-contact, .policy {
+        margin-top: 10px; /* Пространство между элементами */
+    }
 }
