@@ -1,0 +1,31 @@
+.container-grid {
+    display: grid;
+    grid-template-columns: 35% 65% ;
+    grid-template-rows: 50px 100% ;
+}
+
+.item1 {
+    color: #e0d8d8;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.item2 {
+    color: #e0d8d8;
+    background-color: firebrick;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+.item3 {
+color: white;
+background-color: blue;
+text-transform: uppercase;
+font-size: 20px;
+text-align: center;
+}
+

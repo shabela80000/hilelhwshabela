@@ -202,10 +202,6 @@
     margin-top: 20px;
 }
 
-.card-discription {
-    margin-top: 10px;
-}
-
 .card-name {
     font-family: Inter;
     font-size: 20px;
@@ -237,7 +233,8 @@
 
 @media (max-width: 480px) {
     .card {
-        width: calc(45% - 20px);
+        width: calc(95% - 20px);
+        margin-left: 23px;
     }
 }
 
@@ -251,8 +248,16 @@
     align-items: center;
     padding: 40px;
     background-color: #574B63;
-    max-width: 600px;
+    flex-basis: 0;
+    flex-grow: 1;
 }
+
+
+.order-form-img {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
 
 .question {
     color: #FFFFFF;
@@ -331,7 +336,6 @@ button:hover {
     }
 
     .order-form {
-        margin-bottom: 10px;
         max-width: 100%;
     }
 
